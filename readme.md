@@ -27,19 +27,21 @@
 
 ichat 网络聊天软件功能免费体验：[ichat app体验](https://ichat.relaxwalk.com/downloads/ichat-release-20261122-1.0.0.7z)
 
+欢迎大家进Q群交流： 1007976325
+
 本专栏将对下面重点技术进行详细讲解，每个重点知识提供全部源码参考。
 
 ---
 
 ### 二、技术栈与开发环境
 
-| 项目 | 说明 |
-| --- | --- |
-| 开发语言 | QT6 QML（UI）+ C++20（业务逻辑） |
-| 项目构建 | CMake |
-| 第三方库管理 | vcpkg |
+| 项目           | 说明                        |
+| ------------ | ------------------------- |
+| 开发语言         | QT6 QML（UI）+ C++20（业务逻辑）  |
+| 项目构建         | CMake                     |
+| 第三方库管理       | vcpkg                     |
 | Windows 编译环境 | Win11：VS2026 / Qt Creator |
-| Linux 编译环境 | GCC13 |
+| Linux 编译环境   | GCC13                     |
 
 **主要第三方依赖**：plog 日志、asio 消息循环、protobuf 序列化、openssl 加密、sqlite3 客户端数据库、libmariadb、libpng 图形验证码、librdkafka 消息队列、drogon HTTP/WebSocket、curl 邮件发送、hiredis 缓存、jsoncpp / nlohmann-json、brotli、c-ares、ffmpeg 语音消息与录音转存等。
 
@@ -163,13 +165,13 @@ This series explains the key technologies in detail and provides full source cod
 
 ### 2. Tech Stack and Development Environment
 
-| Item | Description |
-| --- | --- |
-| Language | Qt 6 QML (UI) + C++20 (business logic) |
-| Build system | CMake |
-| Third-party dependency management | vcpkg |
-| Windows build environment | Windows 11: VS2026 / Qt Creator |
-| Linux build environment | GCC 13 |
+| Item                              | Description                            |
+| --------------------------------- | -------------------------------------- |
+| Language                          | Qt 6 QML (UI) + C++20 (business logic) |
+| Build system                      | CMake                                  |
+| Third-party dependency management | vcpkg                                  |
+| Windows build environment         | Windows 11: VS2026 / Qt Creator        |
+| Linux build environment           | GCC 13                                 |
 
 **Main third-party dependencies**: plog logging, asio message loop, protobuf serialization, openssl encryption, sqlite3 client database, libmariadb, libpng image captcha, librdkafka message queue, drogon HTTP/WebSocket, curl email sending, hiredis cache, jsoncpp / nlohmann-json, brotli, c-ares, ffmpeg for voice messages and recording conversion/storage, etc.
 
