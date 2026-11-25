@@ -29,6 +29,8 @@ ichat 网络聊天软件功能免费体验：[ichat app体验](https://ichat.rel
 
 欢迎大家进Q群交流： 1007976325
 
+Blog: [QT6 QML 高仿QQ 聊天软件 ichat_QT6程序员 瑞丰的博客-CSDN博客](https://blog.csdn.net/2603_97424974/category_13223947.html)
+
 本专栏将对下面重点技术进行详细讲解，每个重点知识提供全部源码参考。
 
 ---
